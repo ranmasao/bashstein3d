@@ -1,6 +1,6 @@
 # BashStein3D
 
-It is silly and fun attempt to port great game in a very strange way. All textures was downscaled to lower data size for parser.
+It is silly and fun attempt to port great game in a very strange way. All textures were downscaled to lower data size for parser.
 
 ## Requirements
 
@@ -12,7 +12,7 @@ Ubuntu 16.04 LTS x64, GNOME terminal.
 
 ## May not work at
 
-* Non-X11 console, especially with non-standard resolution
+* Non-X11 console, especially with non-standard resolution;
 * UNIX, MacOS, Android terminal, Cygwin, etc...
 * ¯\\_\_(ツ)_\_/¯
 
@@ -28,3 +28,18 @@ chmod +x wolf.sh
 
 WASD - movement
 Ctrl+C - exit
+
+## ToDo
+
+* Change all math to fixed-point (because Bash can work only with integers), remove bc from dependencies;
+* Doors;
+* Sprites;
+* Bonuses;
+* Menus;
+* Secret doors;
+* Weapons;
+* Enemies.
+
+### When
+
+Who knows, maybe never.
