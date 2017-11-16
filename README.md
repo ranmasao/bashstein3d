@@ -31,6 +31,7 @@ Ctrl+C - exit
 
 ## ToDo
 
+* Dynamic or locked window resolution;
 * Change all math to fixed-point (because Bash can work only with integers), remove bc from dependencies;
 * Doors;
 * Sprites;
