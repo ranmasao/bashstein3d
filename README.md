@@ -26,8 +26,8 @@ chmod +x wolf.sh
 
 ## Controls
 
-WASD - movement
-Ctrl+C - exit
+* WASD - movement
+* Ctrl+C - exit
 
 ## ToDo
 
