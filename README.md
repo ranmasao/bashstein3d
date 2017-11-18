@@ -4,7 +4,10 @@ It is silly and fun attempt to port great game in a very strange way. All textur
 
 ## Requirements
 
-**Bash**, **resize**, terminal with UTF-8 and 256 colors, mono font is mandatory, 8x16 font or any other 1:2 is preferred.
+* **Bash**, **resize**;
+* terminal with UTF-8 and 256 colors;
+* x64 OS (at least **bash** should support *signed long long*);
+* mono font is mandatory, 8x16 font or any other 1:2 is preferred.
 
 ## Was tested at
 
@@ -22,16 +25,16 @@ Ubuntu 16.04 LTS x64, GNOME terminal.
 
 ## Install
 
-chmod +x wolf.sh
+`chmod +x wolf.sh`
 
 ## Run
 
-./wolf.sh
+`./wolf.sh`
 
 ## Controls
 
-* WASD - movement
-* Ctrl+C - exit
+* `W` `A` `S` `D` - movement
+* `Ctrl+C` - exit
 
 ## ToDo
 
