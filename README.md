@@ -4,7 +4,7 @@ It is silly and fun attempt to port great game in a very strange way. All textur
 
 ## Requirements
 
-Bash, bc, resize, terminal with UTF-8 and 256 colors, mono font is mandatory, 8x16 font or any other 1:2 is preferred.
+**Bash**, **resize**, terminal with UTF-8 and 256 colors, mono font is mandatory, 8x16 font or any other 1:2 is preferred.
 
 ## Was tested at
 
@@ -15,6 +15,10 @@ Ubuntu 16.04 LTS x64, GNOME terminal.
 * Non-X11 console, especially with non-standard resolution;
 * UNIX, MacOS, Android terminal, Cygwin, etc...
 * ¯\\_\_(ツ)_\_/¯
+
+## Not working at
+
+* TTY (where no UTF-8 font)
 
 ## Install
 
@@ -32,7 +36,6 @@ chmod +x wolf.sh
 ## ToDo
 
 * Dynamic or locked window resolution;
-* Change all math to fixed-point (because Bash can work only with integers), remove bc from dependencies;
 * Doors;
 * Sprites;
 * Bonuses;
